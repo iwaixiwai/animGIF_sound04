@@ -51,74 +51,76 @@ function setup()
 
 function draw() 
 {
+  asize = 1;
+  
   background(255);
   
-  stroke(200,200,200);
+  stroke(240,240,240);
   line(ww/2, 0, ww/2, wh);
   line(0, wh/4, ww, wh/4);
   line(0, wh/2, ww, wh/2);
   line(0, wh/4*3, ww, wh/4*3);
   
   push();
-  translate(ww/8,wh/8);
+  translate(ww/8*3,wh/8);
   rotate(radians(-90));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);//アンカーポイントをセンターに
   image(anim1, 0, 0);
   pop();
   
   push();
-  translate(ww/8,wh/8*3);
+  translate(ww/8*3,wh/8*3);
   rotate(radians(-90));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);
   image(anim2, 0, 0);
   pop();
 
   push();
-  translate(ww/8,wh/8*5);
+  translate(ww/8*3,wh/8*5);
   rotate(radians(-90));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);
   image(anim3, 0, 0);
   pop();
 
   push();
-  translate(ww/8,wh/8*7);
+  translate(ww/8*3,wh/8*7);
   rotate(radians(-90));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);
   image(anim4, 0, 0);
   pop();
   push();
   
-  translate(ww/8*7,wh/8);
+  translate(ww/8*5,wh/8);
   rotate(radians(180));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);//アンカーポイントをセンターに
   image(anim5, 0, 0);
   pop();
   
   push();
-  translate(ww/8*7,wh/8*3);
+  translate(ww/8*5,wh/8*3);
   rotate(radians(180));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);
   image(anim6, 0, 0);
   pop();
 
   push();
-  translate(ww/8*7,wh/8*5);
+  translate(ww/8*5,wh/8*5);
   rotate(radians(180));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);
   image(anim7, 0, 0);
   pop();
 
   push();
-  translate(ww/8*7,wh/8*7);
+  translate(ww/8*5,wh/8*7);
   rotate(radians(180));
-  scale(0.5);
+  scale(asize);
   imageMode(CENTER);
   image(anim8, 0, 0);
   pop();
