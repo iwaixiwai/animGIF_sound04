@@ -51,7 +51,7 @@ function setup()
 
 function draw() 
 {
-  asize = 1;
+  asize = 2;
   
   background(255);
   
