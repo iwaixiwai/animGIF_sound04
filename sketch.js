@@ -62,31 +62,31 @@ function draw()
   line(0, wh/4*3, ww, wh/4*3);
   
   push();
-  translate(ww/8*3,wh/8);
-  rotate(radians(-90));
+  translate(ww/8*3,wh/8*2);
+  rotate(radians(0));
   scale(asize);
   imageMode(CENTER);//アンカーポイントをセンターに
   image(anim1, 0, 0);
   pop();
   
   push();
-  translate(ww/8*3,wh/8*3);
-  rotate(radians(-90));
+  translate(ww/8*3,wh/8*3.5);
+  rotate(radians(-30));
   scale(asize);
   imageMode(CENTER);
   image(anim2, 0, 0);
   pop();
 
   push();
-  translate(ww/8*3,wh/8*5);
-  rotate(radians(-90));
+  translate(ww/8*3,wh/8*4.5);
+  rotate(radians(-60));
   scale(asize);
   imageMode(CENTER);
   image(anim3, 0, 0);
   pop();
 
   push();
-  translate(ww/8*3,wh/8*7);
+  translate(ww/8*3,wh/8*6);
   rotate(radians(-90));
   scale(asize);
   imageMode(CENTER);
@@ -94,31 +94,31 @@ function draw()
   pop();
   push();
   
-  translate(ww/8*5,wh/8);
-  rotate(radians(180));
+  translate(ww/8*5,wh/8*2);
+  rotate(radians(90));
   scale(asize);
   imageMode(CENTER);//アンカーポイントをセンターに
   image(anim5, 0, 0);
   pop();
   
   push();
-  translate(ww/8*5,wh/8*3);
-  rotate(radians(180));
+  translate(ww/8*5,wh/8*3.5);
+  rotate(radians(120));
   scale(asize);
   imageMode(CENTER);
   image(anim6, 0, 0);
   pop();
 
   push();
-  translate(ww/8*5,wh/8*5);
-  rotate(radians(180));
+  translate(ww/8*5,wh/8*4.5);
+  rotate(radians(150));
   scale(asize);
   imageMode(CENTER);
   image(anim7, 0, 0);
   pop();
 
   push();
-  translate(ww/8*5,wh/8*7);
+  translate(ww/8*5,wh/8*6);
   rotate(radians(180));
   scale(asize);
   imageMode(CENTER);
